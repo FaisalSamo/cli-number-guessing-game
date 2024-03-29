@@ -6,7 +6,7 @@ const numbers = await inquirer.prompt([
     { name: "userGuessnumber", type: "number", message: "please guess number between 1-6 =" }
 ]);
 //compare user input and with computer generated number and show result
-if (numbers.userGuessnumber === numbers.RandomNumber) {
+if (numbers.userGuessnumber === RandomNumber) {
     console.log("CONGRATS! Your guessed number is Correct ");
 }
 else {
